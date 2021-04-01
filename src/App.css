@@ -9,11 +9,28 @@ html {
 .logo{
   width: 10%;
 }
+
+
 h2{
   color: white;
   font-weight: 400;
   margin: 1rem;
 
+}
+
+@media(max-width:900px)
+
+{
+  .logo{
+    width:30%;
+  }
+  .title{
+    font-size: 1.5rem;
+  }
+
+  h2{
+    font-size: 1.2rem;
+  }
 }
 .app {
   height: 950px;
